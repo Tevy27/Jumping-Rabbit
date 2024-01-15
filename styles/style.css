@@ -1,0 +1,548 @@
+/*
+filename: styles/style.css
+author: Tevy Tunsay
+created: 20/08/21
+last modified: 27/08/21
+description: css file for assign 1
+Source: 
+1. Logo:  https://dribbble.com/shots/15848093-Jumping-Rabbit
+2. images in HTML: https://www.itpro.co.uk/business-operations/31711/what-is-a-managed-it-service
+3. Header Background: https://www.freepik.com/free-photo/ai-technology-brain-background-digital-transformation-concept_17122619.htm?query=IT%20company
+4. social media button: https://www.w3schools.com
+*/
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  font-family: arial;
+  overflow-x: hidden;
+  width: 95%;
+  height: 100%;
+  /*background: radial-gradient( circle farthest-corner at 10% 20%, #0f2959 0%, #6db4c6 90% );
+  color: whitesmoke;*/
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: turquoise;
+}
+h2, h3 {
+	color: midnightblue;
+}
+
+#photo {
+	float: right;
+	padding: 0px 20px 20px 20px;
+	box-sizing: border-box;
+}
+
+.nav .activepage {
+	text-decoration: underline;
+	color: darkturquoise;
+}
+/*Head*/
+
+header{
+	background-image: url(images/brain.jpg);
+	background-size: cover;
+	background-position: right;
+	height: 200px;
+	padding-top: 40px;
+
+}
+#logo {
+	margin-left: 12% ;
+	margin-top: 0px;
+	clear: both;
+}
+header h1 {
+	margin-top: 0px;
+	float: left;
+	text-align: center;
+	margin-right: 60%;
+	color: midnightblue;
+	font-size: 2.5em;
+	clear: both;
+	text-shadow:
+    0 0 7px #fff,
+    0 0 151px #0fa;
+
+}
+header div {
+	float: left;
+
+}
+nav ul li a {
+color: white;
+}
+nav ul li{
+	text-align: center;
+	margin: 10px;
+	list-style: none;
+	/*float: left;*/
+	font-size: 1.2em;
+	display: inline-block;
+	font-weight: bold;
+	padding:  0.6em 2.5em;
+	background-color: #1d4f80;
+	color: white;
+	border-radius: 20px;
+}
+
+/*Body*/
+body {
+	height:100%;
+    width: 100%;
+    padding: 0px;
+    margin: 20px;
+    background: whitesmoke;
+    background-attachment: fixed;
+
+}
+article h2 {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 2em;
+}
+
+#section1 {
+	float:  left;
+	width: 100%;
+	text-align: justify;
+	margin: 1em 1em 1em 1em;
+	padding-right: 40px;
+
+}
+.col-container{
+	display: table;
+	width: 100%;
+}
+.col{
+	display: table-cell;
+}
+/*#mission, #vision, #value {
+	float:  left;
+	text-align: justify;
+	margin: 1em 1em 1em 1em;
+	clear: right;
+	border: 1px solid black;
+
+}
+*/
+#mission, #vision, #value {
+	padding: 20px;
+	background-color: rgba(0, 20, 40, 0.2);
+	border-right: 1px solid black;
+}
+.col h3 {
+text-align: center;
+}
+/*Footer*/
+footer {
+	clear: both;
+	background-color: #1d4f80;
+	color: white;
+	height: 150px;
+	margin-top: 5em;
+	padding: 20px;
+}
+footer a{
+	color: white;
+}
+#email {
+	float: left;
+	margin-left: 5%;
+	border-right: 1px midnightblue;
+}
+#phone {
+	float: left;
+	margin-left: 15%;
+}
+#btn {
+	float: right;
+}
+.vl {
+	border-left: 2px solid green;
+	padding-left: 20px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+#contactfooter {
+	font-weight: bold;
+}
+
+.fa:hover {
+		    opacity: 0.7;
+		}
+
+.fa-facebook {
+		  background: #3B5998;
+		  color: white;
+		}
+.fa-youtube {
+		background: #bb0000;
+		color: white;
+		}
+.fa-instagram {
+		background: #125688;
+		color: white;
+		}
+/*jobs*/
+article h1{
+	color: midnightblue;
+	margin-left: 20px;
+}
+.jhead{
+	border: 0.5px solid;
+	padding: 20px;
+	box-shadow: 5px 5px 5px 5px lightgray;
+	margin-bottom: 5px;
+}
+.jbody{
+	border: 0.5px solid;
+	padding: 20px;
+	box-shadow: 5px 5px 5px 5px lightgray;
+	margin-bottom: 20px;
+}
+.jsection{
+	border: 0.5px solid;
+	padding: 20px;
+	width: 65%;
+}
+.applynow {
+	border: none;
+ 	color: white;
+ 	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	background-color: #1d4f80;
+  	font-style: italic;
+}
+.applynow:hover{
+	color: midnightblue;
+}
+#jaside1{
+	font-size: 1.2em;
+	float: right;
+	width: 25%;
+	border: 0.5px solid ;
+	font-family: arial sans-serif;
+}
+aside div{
+	margin: 10px;
+	border: 1.5px solid #1d4f80;
+	padding: 10px;
+	background-color: rgba(0, 25, 51, 0.3);
+}
+aside div .applynow{
+	margin-left: 40px;
+}
+aside div ul{
+	list-style: square ;
+}
+aside div ul li:hover{
+	color: midnightblue;
+}
+/*Apply*/
+#aform {
+	width: 80%;
+	display: inline-block;
+	margin: 80px;
+}
+.inputbox input {
+	display:block;
+	height: 30px;
+	width: 50%;
+}
+.btn {
+	margin: 30px;
+	padding: 10px;
+	width: 130px;
+	text-align: center;
+	font-size: 15px;
+	display:inline;
+	cursor: pointer;
+  	background-color: #1d4f80 ;
+  	color: white;
+}
+.btn:hover {
+	color: turquoise;
+}
+form .error {
+    color: #ff0000;
+    font-weight: bold;
+}
+/*about*/
+/*dl {
+    width:100%;
+    overflow:hidden;
+    float:right;
+}
+dt {
+    float:left;
+    width:35%;
+    padding-right:1em;
+    text-align:right;
+}
+
+dd {
+    float:right;
+    width:65%;
+}
+*/
+
+figure img {
+    float:right;
+    margin-right:0;
+    border:2px solid black;
+    margin-top: -40px;
+}
+table{
+	border: 1px solid black;
+	display: inline-table;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+	border: 1px solid black;
+	padding: 10px;
+}
+th{
+	border: 1px solid black;
+	padding: 10px;
+	background-color: #1d4f80 ;
+	color: white;
+}
+td:hover {
+	background-color: turquoise ;
+}
+/*enhancement*/
+.dropbtn {
+  background-color: #D42500;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 1.2em;
+	display: block;
+	padding:  0.6em 0.6em;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #1d4f80;
+}
+#enhance1, #enhance2{
+	padding: 30px;
+	background-color: rgba(0, 20, 40, 0.2);
+	border-right: 1px solid black;
+	border-radius: 20px;
+	margin-left: 30%;
+	margin-bottom: 20px;
+	width: 35%;
+}
+#enmargin {
+	margin-top: 5em;
+	margin-bottom: 30em;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  #back_to_top {
+    display: none;
+    position: fixed;
+    bottom: 22%;
+    right: 20%;
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+ .subcontainer {
+ 	padding: 20px;
+  background-color: #f1f1f1;
+ }
+ #subform{
+ 	width: 50%;
+ 	margin:  0 auto;
+
+ }
+#submail, #subscribe{
+	 width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#subscribe{
+	background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+.login{
+    width: 420px;
+    height: 510px;
+    margin-top: 2em;
+    position: absolute;
+    background: #ccefff;
+    opacity: 0.95;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.login p{
+	
+    margin: 10px 0;
+    padding: 0;
+    font-weight: bold;
+    color: black;
+}
+
+.login input {
+    width: 80%;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    border: 1px solid black;
+    height: 40px;
+    color: black;
+}
+
+
+.login a{
+    text-decoration: none;
+    color: darkred;
+    padding: 5px;
+}
+
+.login a:hover{
+    color: blue;
+}
+
+.login img{
+    margin-top: 5%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.login h1{
+    margin-top: 20%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: large;
+}
+#username{
+	margin-top: 30%;
+}
+#password{
+	border-radius: 3px;
+	padding: 5px;
+}
+
+.manager_msg
+{
+	color: midnightblue;
+	text-align: center;
+	font-size: large;
+}
+#logout{
+	size: 1.5em;
+	color: midnightblue;
+	font-size: 1.5em;
+	float: right;
+}
+#clickclick{
+	font-size: 1.5em;
+	color: midnightblue;
+}
+@media only screen and (max-width: 700px) {
+body {
+	font-size: 100%;
+}
+header h1 {
+	text-align: center;
+	padding-left: 2em;
+	margin-right: 60%;
+	font-size: 1.5em;
+
+}
+nav ul li{
+	text-align: center;
+	margin: 5px;
+	list-style: none;
+	font-size: 1em;
+	display: inline-block;
+	font-weight: bold;
+	padding:  0.6em 1.5em;
+	background-color: #1d4f80;
+	color: white;
+	border-radius: 20px;
+}
+.col {
+	display: block;
+	width: 100%;
+}
+}
